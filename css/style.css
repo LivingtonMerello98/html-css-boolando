@@ -12,10 +12,32 @@ body{
 
 header {
     background-color: #FF6900;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1;
 }
 
+footer{
+    background-color:#1A1A1A;
+    width:100%;
+    position:fixed;
+    bottom:0;
+    left:0;
+}
 
-/*Hero section*/
+.logo{
+    width:100px;
+    height:aut0;
+}
+
+.login{
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+
 
 
 /*button class*/
@@ -30,12 +52,6 @@ header {
     
 }
 
-.login{
-    padding: 8px 20px;
-    font-size: 14px;
-    font-family: "Roboto", sans-serif;
-}
-
 .btn-hero{
     padding: 16px 32px;
     font-size: 20px;
@@ -46,15 +62,6 @@ header {
     font-size: 20px;
 }
 
-.discord{
-    color: white;
-    background-color: #23272A;
-}
-
-.f-logo{
-    width: 90px;
-    height: auto;
-}
 
 /* layout class*/
 
@@ -64,6 +71,7 @@ header {
 
 .d-flex{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .unstyled-list {
@@ -119,6 +127,9 @@ li{
 }
 
 
+
+
+
 .container {
     max-width: 1200px;
     margin: 30px auto;
@@ -128,6 +139,36 @@ li{
     max-width: 990px;
     margin: 30px auto;
 }
+
+
+/*inside content*/
+
+.content{
+    position: relative;
+}
+
+.content img{
+    width:100%;
+}
+
+.discount-label{
+    position: absolute;
+    bottom:80px;
+    left:0;
+    padding:5px 10px;
+}
+
+.sustainability-label{
+    position: absolute;
+    bottom:80px;
+    left:60px;
+    padding:5px 10px;
+}
+
+
+
+/*inside content*/
+
 
 .row {
     display: flex;
@@ -180,7 +221,8 @@ li{
 }
 
 .col-33 {
-    width: calc(33% - 1px); /*da riguardare*/
+    margin: 10px;
+    width: calc(100% / 3 - 20px); /*da riguardare*/
 }
 
 .col-34 {
@@ -212,6 +254,9 @@ li{
 /*background-color class*/
 .bg-orange {
     background-color: #DAA520;
+}
+.bg-red {
+    background-color: #FF0000;
 }
 
 .bg-blue {
@@ -259,7 +304,7 @@ li{
 }
 
 .bg-anthracite {
-    background-color: #23272A;
+    background-color: #1A1A1A;
 }
 
 
@@ -307,6 +352,10 @@ li{
     padding: 80px 0px;
 }
 
+.py-120 {
+    padding: 120px 0px;
+}
+
 /*combined class*/
 .pxy-20{
     padding: 20px 20px;
@@ -339,8 +388,13 @@ h3{
     font-weight: 800;
 }
 
-.white{
-    color: white;
+.brand{
+    font-size: 14px;
+    font-weight:300;
+}
+
+.dress-name{
+    text-transform: uppercase;
 }
 
 .h2-footer{
@@ -353,20 +407,19 @@ h3{
     color: #8EA1E1;
 }
 
-.border-top{
-    background-color: #8EA1E1;
-    height: 1px;
-} 
+.font-weight{
+    font-weight:500;
+}
 
+.white{
+    color: white;
+}
+.red{
+    color: red;
+}
 
-.container-bttm-f {
-    max-width: 1200px;
-    margin: 30px auto;
-    padding-top: 20px;
-    padding-bottom: 40px; 
+.strike-through {
+    text-decoration: line-through;
 }
 
 /*icons*/
-.reverse-row{
-    padding: 5px 5px;
-}

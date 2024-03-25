@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: #FF6900;
+}
+
+
+/*Hero section*/
+
+
+/*button class*/
+
+.line-height{
+    line-height: 1.9;
+}
+
+.btn{
+    border: 0px;
+    border-radius: 28px;
+    
+}
+
+.login{
+    padding: 8px 20px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-hero{
+    padding: 16px 32px;
+    font-size: 20px;
+}
+
+.cta{
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
+.discord{
+    color: white;
+    background-color: #23272A;
+}
+
+.f-logo{
+    width: 90px;
+    height: auto;
+}
+
+/* layout class*/
+
+.f-grow {
+    flex-grow: 2;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.unstyled-list {
+    list-style-type: none;
+}
+
+.unstyled-list li{
+    display: inline-block;
+}
+
+.unstyled-list li  a {
+    color: white;
+    text-decoration: none;
+}
+
+.li-footer{
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li{
+    font-size: 14px;
+    padding: 5px 0px;
+}
+
+.height-xl {
+    height: 500px;
+}
+
+.height-l {
+    height: 300px;
+}
+
+.height-m {
+    height: 100px;
+}
+
+.height-sm {
+    height: 30px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.container-sm {
+    max-width: 990px;
+    margin: 30px auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-around{
+    align-content: space-around;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.a-center {
+    align-items: center; 
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.a-content-center {
+    align-content: center; 
+}
+
+
+.col-17 {
+    width: calc(100% / 6);
+}
+
+.col-20 {
+    width: 20%;
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.col-30 {
+    width: calc(30% - 1px);
+}
+
+.col-33 {
+    width: calc(33% - 1px); /*da riguardare*/
+}
+
+.col-34 {
+    width: calc(100% / 6 * 2);
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-70 {
+    width: calc(70% - 1px);
+}
+
+.col-80 {
+    width: 80%;
+}
+
+.col-100 {
+    width: 100%;
+}
+
+/* utility class */
+
+/*background-color class*/
+.bg-orange {
+    background-color: #DAA520;
+}
+
+.bg-blue {
+    background-color: #00008B;
+}
+
+.bg-magenta {
+    background-color: #EE82EE;
+}
+
+.bg-dodger-blue {
+    background-color: #1E90FF;
+}
+
+.bg-pink {
+    background-color: #FFC0CB;
+}
+
+.bg-light-grey{
+    background-color: #E5E5E5;
+}
+
+.bg-grey {
+    background-color: #D3D3D3;
+}
+
+.bg-green {
+    background-color: #228B22;
+}
+
+.bg-dark-grey {
+    background-color: #23272A;
+}
+
+.bg-light-green {
+    background-color: #20B2AA;
+}
+
+.bg-light-coral {
+    background-color: #F08080;
+}
+
+.bg-indigo {
+    background-color: #8EA1E1;
+}
+
+.bg-anthracite {
+    background-color: #23272A;
+}
+
+
+
+
+/*padding-class*/
+.px-5 {
+    padding: 0px 5px;
+}
+.px-10 {
+    padding: 0px 10px;
+}
+.px-20 {
+    padding: 0px 20px;
+}
+.px-40 {
+    padding: 0px 40px;
+}
+.px-60 {
+    padding: 0px 60px;
+}
+.px-140 {
+    padding: 0px 140px;
+}
+
+.py-5 {
+    padding: 5px 0px;
+}
+.py-10 {
+    padding: 10px 0px;
+}
+.py-20 {
+    padding: 20px 0px;
+}
+.py-30 {
+    padding: 30px 0px;
+}
+.py-40 {
+    padding: 40px 0px;
+}
+.py-60 {
+    padding: 60px 0px;
+}
+.py-80 {
+    padding: 80px 0px;
+}
+
+/*combined class*/
+.pxy-20{
+    padding: 20px 20px;
+}
+.pxy-20-160{
+    padding: 20px 163px;
+}
+
+.my-20{
+    margin-top:20px;
+}
+
+.row.space-between.a-center.a-content-center{
+    height: 100%;
+}
+
+/*text*/
+h1{
+    font-size:48px;
+    font-weight: 800;
+}
+
+h2{
+    font-size:40px;
+    font-weight: 800;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.white{
+    color: white;
+}
+
+.h2-footer{
+    font-size: 36px;
+    color:#8EA1E1;
+}
+
+.h4-footer{
+    font-size: 20px;
+    color: #8EA1E1;
+}
+
+.border-top{
+    background-color: #8EA1E1;
+    height: 1px;
+} 
+
+
+.container-bttm-f {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding-top: 20px;
+    padding-bottom: 40px; 
+}
+
+/*icons*/
+.reverse-row{
+    padding: 5px 5px;
+}

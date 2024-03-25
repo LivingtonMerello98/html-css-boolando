@@ -141,8 +141,6 @@ li{
 }
 
 
-/*inside content*/
-
 .content{
     position: relative;
 }
@@ -151,6 +149,9 @@ li{
     width:100%;
 }
 
+
+
+/*heart hover*/
 .heart-label{
     position: absolute;
     font-size:30px;
@@ -158,6 +159,22 @@ li{
     right:0;
     padding:10px 20px;
 }
+
+.red-heart-label{
+    position: absolute;
+    color:red;
+    font-size:30px;
+    top:10px;
+    right:0;
+    padding:10px 20px;
+    opacity:0;
+    z-index:2;
+}
+
+.bg-white:hover .red-heart-label{
+    opacity:1;
+}
+
 
 .discount-label{
     position: absolute;
@@ -176,10 +193,6 @@ li{
 .left{
     left:0px;
 }
-
-
-/*inside content*/
-
 
 .row {
     display: flex;
@@ -360,6 +373,9 @@ li{
 }
 .pxy-20-160{
     padding: 20px 163px;
+}
+.pxy-10-20{
+    padding: 10px 20px;
 }
 
 .my-20{

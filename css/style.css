@@ -10,7 +10,7 @@ body{
     font-style: normal;
 }
 
-header {
+header {   /*bonus*/
     background-color: #FF6900;
     width:100%;
     position:fixed;
@@ -19,12 +19,9 @@ header {
     z-index:10;
 }
 
-footer{
+footer{ /*bonus*/
     background-color:#1A1A1A;
     width:100%;
-    position:fixed;
-    bottom:0;
-    left:0;
     z-index:3
 }
 
@@ -47,28 +44,7 @@ footer{
     line-height: 1.9;
 }
 
-.btn{
-    border: 0px;
-    border-radius: 28px;
-    
-}
-
-.btn-hero{
-    padding: 16px 32px;
-    font-size: 20px;
-}
-
-.cta{
-    padding: 8px 20px;
-    font-size: 20px;
-}
-
-
 /* layout class*/
-
-.f-grow {
-    flex-grow: 2;
-}
 
 .d-flex{
     display: flex;
@@ -233,6 +209,9 @@ li{
 .j-center {
     justify-content: center;
 }
+.j-end {
+    justify-content: end;
+}
 
 .a-content-center {
     align-content: center; 
@@ -389,8 +368,19 @@ li{
     padding: 10px 20px;
 }
 
+
+/*margin*/
+.my-5{
+    margin: 5px 0;
+}
+.my-10{
+    margin: 10px 0;
+}
 .my-20{
-    margin-top:20px;
+    margin: 20px 0;
+}
+.my-30{
+    margin: 30px 0;
 }
 
 /*text*/
@@ -451,3 +441,11 @@ li{
 .z-index-5{
     z-index:5;
 }
+
+/*icon*/
+.icon{
+    width:20px;
+    height:auto;
+    margin:0 5px;
+}
+
